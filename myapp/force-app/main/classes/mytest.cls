@@ -24,6 +24,9 @@ private class mytest {
 
     @isTest
     static void myUnitTest() {
-        // TO DO: implement unit test
+
+        myclass demo = new myclass();
+        System.assertEquals(demo.getAppVersion(), '1.0.0');
+
     }
 }
